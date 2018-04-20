@@ -2,37 +2,18 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import Link from 'gatsby-link';
 
-const Header = ({ siteTitle }) => (
-	<div
-		style={{
-			background: 'rebeccapurple',
-			marginBottom: '1.45rem',
-		}}
-	>
-		<div
-			style={{
-				margin: '0 auto',
-				maxWidth: 960,
-				padding: '1.45rem 1.0875rem',
-			}}
-		>
-			<h1 style={{ margin: 0 }}>
-				<Link
-					to="/"
-					style={{
-						color: 'white',
-						textDecoration: 'none',
-					}}
-				>
-					{siteTitle}
-				</Link>
-			</h1>
-		</div>
-	</div>
+import Section from './section';
+
+const Header = ({ title }) => (
+	<Section className="header">
+		<h1>
+			<Link to="/">{title}</Link>
+		</h1>
+	</Section>
 );
 
 Header.propTypes = {
-	siteTitle: PropTypes.string.isRequired,
+	title: PropTypes.string.isRequired,
 };
 
 export default Header;

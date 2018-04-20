@@ -1,7 +1,18 @@
-/**
- * Implement Gatsby's Node APIs in this file.
- *
- * See: https://www.gatsbyjs.org/docs/node-apis/
- */
+exports.onCreatePage = async ({ page, boundActionCreators }) => {
+	const { createPage } = boundActionCreators;
 
-// You can delete this file if you're not using it
+	return new Promise(resolve => {
+		switch (page.path) {
+			case '/':
+				page.layout = 'main';
+				break;
+
+			default:
+				page.layout = 'secondary';
+				break;
+		}
+
+		createPage(page);
+		resolve();
+	});
+};

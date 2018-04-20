@@ -1,0 +1,36 @@
+html, body {
+  background-color: white;
+}
+
+h1 {
+  margin: 0;
+}
+
+p {
+  margin: 12px 0;
+}
+
+section {
+  background-color: white;
+}
+
+div.content {
+  max-width: 960px;   /* keep things from getting crazy wide */
+  margin: auto;       /* push content away from edges a bit */
+  padding: 0px 12px;
+}
+
+section.header {
+  background-color: #79ADDC;
+  padding: 18px 0px;
+}
+
+section.main {
+  padding: 36px 0px;
+}
+
+
+section.footer {
+  background-color: white;
+  padding: 18px 0pwhite;
+}

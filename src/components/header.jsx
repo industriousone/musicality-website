@@ -1,6 +1,5 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import Link from 'gatsby-link';
 
 import Section from './section';
 import { NavBar, NavItem } from './navbar';
@@ -14,9 +13,7 @@ const Header = ({ title }) => (
 				Download
 			</NavItem>
 		</NavBar>
-		<h1>
-			<Link to="/">{title}</Link>
-		</h1>
+		<h1>{title}</h1>
 	</Section>
 );
 

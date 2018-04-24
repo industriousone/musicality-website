@@ -1,5 +1,13 @@
 /* Base styles */
 
+html {
+  box-sizing: border-box;  /* "fix" the box model */
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;     /* "fix" the box model */
+}
+
 h1 {
   margin: 0;
 }
@@ -20,7 +28,7 @@ div.content {
 
 navbar {
   display: block;     /* span the whole width */
-  padding: 5px 0;     /* push away from top edge a bit */
+  padding-top: 13px;  /* push away from top edge a bit */
   text-align: right;  /* put it all on the right side */
 }
 
@@ -47,8 +55,15 @@ navbar ul li, navbar ul li {
 
 /* Site styles */
 
-section.header {
-  padding: 6px 0;
+section.title {
+  background: radial-gradient(ellipse at center, rgba(83,203,241,0.85), rgba(5,171,224,0.75) 100%);
+  color: white;
+  padding: 18px 0;
+}
+
+section.title h1 {
+  font-size: 48px;
+  font-weight: 500;
 }
 
 section.main {

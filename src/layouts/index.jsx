@@ -2,17 +2,13 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import Helmet from 'react-helmet';
 
-import Page from '../components/page';
-import Footer from '../components/footer';
-
 import '../styles/index.css';
 
 const Layout = ({ children, data }) => (
-	<Page>
+	<div className="root">
 		<Helmet title={data.site.siteMetadata.title} />
 		{children()}
-		<Footer />
-	</Page>
+	</div>
 );
 
 Layout.propTypes = {
@@ -23,7 +19,11 @@ Layout.propTypes = {
 export default Layout;
 
 export const query = graphql`
-	query MainLayoutQuery {
-		...pageData
+	query LayoutQuery {
+		site {
+			siteMetadata {
+				title
+			}
+		}
 	}
 `;

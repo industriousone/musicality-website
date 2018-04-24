@@ -4,9 +4,14 @@ import PropTypes from 'prop-types';
 import Section from './section';
 import { NavBar, NavItem } from './navbar';
 
+import Icon from '../images/icon_banner.png';
+
 const Header = ({ title }) => (
 	<div className="header">
 		<Section className="navigation">
+			<a href="/">
+				<img className="badge" src={Icon} alt="Musicality" />
+			</a>
 			<NavBar>
 				<NavItem to="/">Home</NavItem>
 				<NavItem to="/help">Help</NavItem>

@@ -1,6 +1,4 @@
-html, body {
-  background-color: white;
-}
+/* Base styles */
 
 h1 {
   margin: 0;
@@ -10,27 +8,70 @@ p {
   margin: 12px 0;
 }
 
-section {
-  background-color: white;
+a {
+  text-decoration: none;
 }
 
 div.content {
   max-width: 960px;   /* keep things from getting crazy wide */
   margin: auto;       /* push content away from edges a bit */
-  padding: 0px 12px;
+  padding: 0px 12px;  /* push content away from edges a bit */
 }
 
+navbar {
+  display: block;     /* span the whole width */
+  padding: 5px 0;     /* push away from top edge a bit */
+  text-align: right;  /* put it all on the right side */
+}
+
+navbar ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+navbar ul li {
+  display: inline-block;
+}
+
+navbar ul li, navbar ul li {
+  margin-left: 1.75em;
+}
+
+.button a {
+  border-radius: 6px;
+  border-style: solid;
+  border-width: 1px;
+  padding: 0.4em 0.8em;
+}
+
+/* Site styles */
+
 section.header {
-  background-color: #79ADDC;
-  padding: 18px 0px;
+  padding: 6px 0;
 }
 
 section.main {
   padding: 36px 0px;
 }
 
-
 section.footer {
-  background-color: white;
   padding: 18px 0pwhite;
+}
+
+navbar ul li {
+  color: #ee7600;
+}
+
+navbar ul li a {
+  color: #ee7600;
+}
+
+navbar ul li a:hover {
+  color: #FFA500;
+}
+
+navbar ul li.button a:hover {
+  background-color: #FFA500;
+  color: white;
 }

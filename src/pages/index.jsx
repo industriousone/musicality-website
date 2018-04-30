@@ -2,6 +2,7 @@ import React from 'react';
 import Link from 'gatsby-link';
 
 import MainSection from '../components/mainSection';
+import MailingListSignup from '../components/mailingList';
 
 import Icon from '../images/icon_banner.png';
 
@@ -29,6 +30,8 @@ const IndexPage = () => (
 				I&apos;ll notify you when everything is up and running properly again.
 				(No spam, and I&apos;ll never share your address. Promise.)
 			</p>
+
+			<MailingListSignup />
 
 			<p>
 				<strong>If you already purchased Musicality, never fear!</strong> I will

@@ -104,3 +104,37 @@ navbar ul li.button a:hover {
   max-width: 610px;
 }
 
+/* MailChimp signup form */
+
+div.mailing-list-signup {
+  text-align: center;
+}
+
+div.mailing-list-signup form {
+  display: inline-block;
+  text-align: left;
+  margin: 32px 0;
+}
+
+div.mailing-list-signup input.email {
+  border-style: solid;
+  border-color: rgb(171, 176, 178);
+  border-width: 1px;
+  border-radius: 3px;
+  color: rgb(52, 52, 52);
+  height: 32px;
+  width: 290px;
+  margin: 3px 6px 3px 0px;
+  padding: 0px 4px;
+}
+
+div.mailing-list-signup input.submit {
+  background-color: #bebebe;
+  border-style: none;
+  border-radius: 3px;
+  color: white;
+  font-size: 15px;
+  font-weight: normal;
+  height: 32px;
+  padding: 0px 12px;
+}

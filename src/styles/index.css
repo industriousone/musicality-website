@@ -16,7 +16,8 @@ p {
   margin: 12px 0;
 }
 
-a {
+a, a:visited {
+  color: #337ab7;
   text-decoration: none;
 }
 
@@ -98,3 +99,8 @@ navbar ul li.button a:hover {
   background-color: #FFA500;
   color: white;
 }
+
+.front-page .content {
+  max-width: 610px;
+}
+

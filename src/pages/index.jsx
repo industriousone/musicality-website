@@ -18,9 +18,10 @@ const IndexPage = () => (
 				Musicality is a nights-and-weekends passion project for me&mdash;but
 				unfortunately my nights and weekends haven&apos;t been quite enough to
 				keep up with all of the recent changes in macOS, tvOS, and the music
-				services. As a result, the <Link to="/help">list of known issues</Link>{' '}
-				has grown, and I no longer feel good about offering Musicality up for
-				sale, even with the free trial.
+				services. As a result, the{' '}
+				<Link to="/help#known-issues">list of known issues</Link> has grown, and
+				I no longer feel good about offering Musicality up for sale, even with
+				the free trial.
 			</p>
 
 			<p>

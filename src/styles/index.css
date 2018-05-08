@@ -87,7 +87,7 @@ navbar ul li {
   color: #ee7600;
 }
 
-navbar ul li a {
+navbar ul li a, navbar ul li a:visited {
   color: #ee7600;
 }
 

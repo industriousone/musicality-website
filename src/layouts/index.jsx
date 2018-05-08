@@ -18,12 +18,21 @@ Layout.propTypes = {
 
 export default Layout;
 
-export const query = graphql`
+export const siteMetadata = graphql`
+	fragment SiteMetadata on Site {
+		siteMetadata {
+			title
+			facebook
+			twitter
+			email
+		}
+	}
+`;
+
+export const layoutQuery = graphql`
 	query LayoutQuery {
 		site {
-			siteMetadata {
-				title
-			}
+			...SiteMetadata
 		}
 	}
 `;

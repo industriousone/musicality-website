@@ -172,15 +172,17 @@ const HelpPage = ({ data }) => (
 			slug="enable-spotify-player"
 		>
 			<p>
-				This is now <em>fixed</em> in the <b>v3.1.6</b> release. Let me know if
-				you continue to have any problems!
+				This is now <em>fixed</em> in the <b>v3.1.6</b> release.{' '}
+				<a href="#how-to-contact">Let me know</a> if you continue to have any
+				problems!
 			</p>
 		</HelpRow>
 
 		<HelpRow title="Pandora Plus isn't working!" slug="pandora-plus">
 			<p>
-				This is now <em>fixed</em> in the <b>v3.1.6</b> release. Let me know if
-				you continue to have any problems!
+				This is now <em>fixed</em> in the <b>v3.1.6</b> release.{' '}
+				<a href="#how-to-contact">Let me know</a> if you continue to
+				have any problems!
 			</p>
 		</HelpRow>
 
@@ -203,9 +205,9 @@ const HelpPage = ({ data }) => (
 		>
 			<p>
 				This should be fixed in the <b>v3.1.6</b> release. If you are still
-				experiencing this issue, let me know! And in the meantime, choose{' '}
-				<b>Go &gt; Reload</b> from the menu, or press <b>Command+R</b>, to
-				reload the page and get the music playing again.
+				experiencing this issue, <a href="#how-to-contact">let me know</a>! And
+				in the meantime, choose <b>Go &gt; Reload</b> from the menu, or press{' '}
+				<b>Command+R</b>, to reload the page and get the music playing again.
 			</p>
 		</HelpRow>
 

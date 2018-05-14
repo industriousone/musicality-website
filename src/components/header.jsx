@@ -1,16 +1,16 @@
 import React from 'react';
 import PropTypes from 'prop-types';
+import Link from 'gatsby-link';
 
 import Section from './section';
 import { NavBar, NavItem } from './navbar';
-
-import Icon from '../images/icon_banner.png';
+import Logo from '../components/logo';
 
 const Header = ({ title }) => (
 	<div className="header">
 		<Section className="navigation">
 			<a href="/">
-				<img className="badge" src={Icon} alt="Musicality" />
+				<Logo className="badge" size="32" />
 			</a>
 			<NavBar>
 				<NavItem to="/">Home</NavItem>
@@ -21,7 +21,9 @@ const Header = ({ title }) => (
 			</NavBar>
 		</Section>
 		<Section className="title">
-			<h1>{title}</h1>
+			<h1>
+				<Link to="/">Musicality</Link> &gt; {title}
+			</h1>
 		</Section>
 	</div>
 );

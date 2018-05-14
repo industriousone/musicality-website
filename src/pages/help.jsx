@@ -6,7 +6,7 @@ import ContentPage from '../components/contentPage';
 import HelpRow from '../components/helpRow';
 
 const HelpPage = ({ data }) => (
-	<ContentPage title="Musicality &gt; Help">
+	<ContentPage title="Help">
 		<h2>Musicality is not currently available for purchase.</h2>
 		<p>
 			See <Link to="/">this page</Link> for more information, or scroll down for
@@ -181,8 +181,8 @@ const HelpPage = ({ data }) => (
 		<HelpRow title="Pandora Plus isn't working!" slug="pandora-plus">
 			<p>
 				This is now <em>fixed</em> in the <b>v3.1.6</b> release.{' '}
-				<a href="#how-to-contact">Let me know</a> if you continue to
-				have any problems!
+				<a href="#how-to-contact">Let me know</a> if you continue to have any
+				problems!
 			</p>
 		</HelpRow>
 

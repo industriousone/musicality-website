@@ -12,7 +12,6 @@ h1 {
   margin: 30px 0 12px 0;
 }
 
-
 p {
   margin: 12px 0;
 }
@@ -61,9 +60,7 @@ navbar ul li, navbar ul li {
 
 img.badge {
   float: left;
-  width: 48px;
-  height: 48px;
-  margin: 0;
+  margin: 8px 0px;
 }
 
 
@@ -78,6 +75,10 @@ section.title {
 section.title h1 {
   font-size: 48px;
   font-weight: 500;
+}
+
+section.title a {
+  color: white;
 }
 
 section.main {
@@ -157,4 +158,18 @@ div.faq-row:nth-of-type(even) {
 
 h3.faq-question a {
   color: rgb(87, 87, 87);
+}
+
+/* Download page */
+
+.download-not-available {
+  text-align: center;
+}
+
+.download-instructions {
+  text-align: center;
+  border-top: solid 1px #ddd;
+  border-bottom: solid 1px #ddd;
+  padding: 22px 0px;
+  margin: 22px 0px;
 }

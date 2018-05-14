@@ -3,14 +3,13 @@ import Link from 'gatsby-link';
 
 import MainSection from '../components/mainSection';
 import MailingListSignup from '../components/mailingList';
-
-import Icon from '../images/icon_banner.png';
+import Logo from '../components/logo';
 
 const IndexPage = () => (
 	<div className="front-page">
 		<MainSection>
 			<div style={{ textAlign: 'center' }}>
-				<img src={Icon} alt="Musicality" width="256" height="256" />
+				<Logo size="256" />
 				<h3>Musicality is not currently available.</h3>
 			</div>
 

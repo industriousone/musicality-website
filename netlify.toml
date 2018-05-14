@@ -1,0 +1,13 @@
+[[redirects]]
+	from = "/news"
+	to = "/welcome.txt"
+	query = { op = "first" }
+	status = 307
+	force = true
+
+[[redirects]]
+	from = "/news"
+	to = "/latest.txt"
+	query = { op = "new" }
+	status = 307
+	force = true

@@ -168,6 +168,18 @@ const HelpPage = ({ data }) => (
 		</h1>
 
 		<HelpRow
+			title="AirPlay streaming fails with &ldquo;403 Forbidden&rdquo;!"
+			slug="atv4-403-forbidden"
+		>
+			<p>
+				Apple's update to support AirPlay 2 is, unfortunately, not backward compatible with
+    		    AirPlay 1, which is what Musicality currently uses. I&rsquo;m looking into switching over 
+        		to newer APIs, and will publish a fix as soon as I can. (Note this may cause Musicality
+        		to stop working on older versions of macOS.)
+			</p>
+		</HelpRow>
+
+		<HelpRow
 			title="Spotify says &ldquo;Enable player in your browser!&rdquo;"
 			slug="enable-spotify-player"
 		>
@@ -183,19 +195,6 @@ const HelpPage = ({ data }) => (
 				This is now <em>fixed</em> in the <b>v3.1.6</b> release.{' '}
 				<a href="#how-to-contact">Let me know</a> if you continue to have any
 				problems!
-			</p>
-		</HelpRow>
-
-		<HelpRow
-			title="Streaming to AppleTV fails with &ldquo;403 Forbidden&rdquo;!"
-			slug="atv4-403-forbidden"
-		>
-			<p>
-				Apple made a change requiring an AirPlay password or passcode to be set
-				before streaming will work. I&rsquo;ve made progress on getting this
-				working but I&rsquo;m not quite there yet. And AirPlay 2, which is
-				coming later this year, may break things again. I&rsquo;ll provide more
-				information as I have it, and a fix as soon as I can!
 			</p>
 		</HelpRow>
 

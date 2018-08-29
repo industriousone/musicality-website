@@ -1,0 +1,84 @@
+body {
+	font-family: "Helvetica Neue";
+	font-size: 15px;
+	line-height: 20px;
+	margin: 0;
+}
+
+h1 {
+	font-family: "Helvetica Neue";
+	font-size: 76px;
+	font-weight: 100;
+	line-height: 70px;
+	margin: 0;
+}
+
+h2 {
+	font-size: 32px;
+	font-weight: 100;
+	margin-bottom: 24px;
+}
+
+h3 {
+	font-size: 24px;
+	font-weight: 200;
+	margin: 0;
+}
+
+a:link, a:visited {
+	color: blue;
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: underline;
+}
+
+img.main-image {
+	position: absolute;
+	-webkit-box-reflect: below -30px
+	    -webkit-gradient(linear, left top, left bottom, from(transparent), color-stop(0.78, transparent), to(rgba(1,1,1,0.75)));
+	top: -8px;
+	left: 24px;
+	height: 128px;
+	width: 128px;
+}
+
+div.intro {
+	background-color: #222;
+	color: #FFF;
+	font-weight: 200;
+	height: 122px;
+	padding: 12px 8px 6px 172px;
+}
+
+div.main-content {
+	clear: both;
+	margin: 24px 48px;
+}
+
+div.main-content p {
+	margin-top: 0;
+}
+
+div.breakout {
+	margin-left: 24px;
+	margin-bottom: 24px;
+}
+
+p.links {
+	text-align: center;
+}
+
+
+.big {
+	text-align: center;
+}
+
+.image-row {
+	text-align: center;
+}
+
+.image-row img {
+	vertical-align: middle;
+	margin: 6px 6px;
+}

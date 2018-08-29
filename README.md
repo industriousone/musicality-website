@@ -10,3 +10,13 @@ Built with:
 - [Gatsby](https://www.gatsbyjs.org)
 - [react](https://facebook.github.io/react/)
 - [Typography](https://kyleamathews.github.io/typography.js/)
+
+
+## Usage
+
+Getting started:
+
+    $ npm install
+    $ npm run develop
+
+Merge to master branch to publish (h/t Netlify).

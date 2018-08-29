@@ -1,7 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 
-import Icon from '../images/icon_banner.png';
+import Icon from '../images/icon-banner.png';
 
 const Logo = ({ className, size }) => (
 	<img

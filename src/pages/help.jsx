@@ -7,15 +7,20 @@ import HelpRow from '../components/helpRow';
 
 const HelpPage = ({ data }) => (
 	<ContentPage title="Help">
-		<h2>Musicality is not currently available for purchase.</h2>
+		<h2>
+			Musicality is <em>temporarily</em> unavailable.
+		</h2>
 		<p>
 			See <Link to="/">this page</Link> for more information, or scroll down for
-			the latest on the <a href="#known-issues">known issues and fixes</a>.
+			the latest on the{' '}
+			<Link to="/help#known-issues">known issues and fixes</Link>.
 		</p>
 
-		<h1>
-			<a name="general-questions">General Questions (and Answers!)</a>
-		</h1>
+		<h2 style={{ marginTop: '1.5em' }}>
+			<b>
+				<a name="general-questions">General Questions (and Answers!)</a>
+			</b>
+		</h2>
 
 		<HelpRow title="How can I contact you?" slug="how-to-contact">
 			<p>
@@ -163,24 +168,37 @@ const HelpPage = ({ data }) => (
 			</p>
 		</HelpRow>
 
-		<h1>
-			<a name="known-issues">Known Issues</a>
-		</h1>
+		<h2 style={{ marginTop: '1.5em' }}>
+			<b>
+				<a name="known-issues">Known Issues</a>
+			</b>
+		</h2>
 
 		<HelpRow
-			title="AirPlay streaming fails with &ldquo;403 Forbidden&rdquo;!"
+			title="Streaming to AppleTV fails with &ldquo;403 Forbidden&rdquo;!"
 			slug="atv4-403-forbidden"
 		>
 			<p>
-				Apple's update to support AirPlay 2 is, unfortunately, not backward compatible with
-    		    AirPlay 1, which is what Musicality currently uses. I&rsquo;m looking into switching over 
-        		to newer APIs, and will publish a fix as soon as I can. (Note this may cause Musicality
-        		to stop working on older versions of macOS.)
+				Apple made a change requiring an AirPlay password or passcode to be set
+				before streaming will work. I almost have this working, but I&rsquo;m
+				not quite there yet.
 			</p>
 		</HelpRow>
 
 		<HelpRow
-			title="Spotify says &ldquo;Enable player in your browser!&rdquo;"
+			title="Streaming to AirPort Express fails with &ldquo;403 Forbidden&rdquo; (FIXED 🎉)"
+			slug="express-airplay2"
+		>
+			<p>
+				This is now <em>fixed</em> in the <b>v3.1.7</b> release.{' '}
+				<a href="#how-to-contact">Let me know</a> if you continue to have any
+				problems! (Note that it is <em>not (yet)</em> fixed for the 4th
+				generation Apple TV; working on that now).
+			</p>
+		</HelpRow>
+
+		<HelpRow
+			title="Spotify says &ldquo;Enable player in your browser!&rdquo; (FIXED 🎉)"
 			slug="enable-spotify-player"
 		>
 			<p>
@@ -190,7 +208,7 @@ const HelpPage = ({ data }) => (
 			</p>
 		</HelpRow>
 
-		<HelpRow title="Pandora Plus isn't working!" slug="pandora-plus">
+		<HelpRow title="Pandora Plus isn't working! (FIXED 🎉)" slug="pandora-plus">
 			<p>
 				This is now <em>fixed</em> in the <b>v3.1.6</b> release.{' '}
 				<a href="#how-to-contact">Let me know</a> if you continue to have any
@@ -199,7 +217,7 @@ const HelpPage = ({ data }) => (
 		</HelpRow>
 
 		<HelpRow
-			title="Pandora won't play if left paused overnight!"
+			title="Pandora won't play if left paused overnight! (FIXED 🎉)"
 			slug="pandora-wont-play-after-sleep"
 		>
 			<p>

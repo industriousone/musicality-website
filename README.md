@@ -19,4 +19,8 @@ Getting started:
     $ npm install
     $ npm run develop
 
+Create a release build with:
+
+	$ npm run build
+
 Merge to master branch to publish (h/t Netlify).

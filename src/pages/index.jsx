@@ -29,7 +29,7 @@ const IndexPage = () => (
 				<p>
 					I fell behind the recent flurry of changes to macOS, tvOS, and the music
 					services, and the{' '}
-					<Link to="/help#known-issues">list of known issues</Link> got away from
+					<Link to="/help">list of known issues</Link> got away from
 					me. I wasn&apos;t feeling good about the state of things, so I decided
 					to stop offering Musicality for sale until I could get things working to
 					my satisfaction again.
@@ -43,7 +43,7 @@ const IndexPage = () => (
 				<p>
 					If you would like to try things out for yourself, there is a{' '}
 					<Link to="/download">free trial available</Link>...just be sure to check
-					the <Link to="/help#known-issues">known issues</Link> first! If you
+					the <Link to="/help">known issues</Link> first! If you
 					purchased Musicality already, and just need to download the latest
 					version, you can <Link to="/download">find it here</Link>.
 				</p>

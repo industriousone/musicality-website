@@ -201,6 +201,17 @@ const HelpPage = ({ data }) => (
 			</HelpRow>
 
 			<HelpRow
+				title="The remote control layout is broken on iOS 12!"
+				slug="remote-ios12"
+			>
+				<p>
+					I&rsquo;m working on a fix for this now and hope to push a new release soon.
+					Everything should still work, even though the layout is broken&mdash;if you
+					see otherwise, please <a href="#how-to-contact">let me know</a>!
+				</p>
+			</HelpRow>
+
+			<HelpRow
 				title="Streaming to AirPort Express fails with &ldquo;403 Forbidden&rdquo; (FIXED 🎉)"
 				slug="express-airplay2"
 			>

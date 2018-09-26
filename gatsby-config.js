@@ -6,12 +6,14 @@ module.exports = {
 		email: 'hello@industriousone.com',
 	},
 	plugins: [
-		'gatsby-plugin-react-helmet',
+		{
+			resolve: 'gatsby-plugin-react-helmet'
+		},
 		{
 			resolve: 'gatsby-plugin-typography',
 			options: {
 				pathToConfigModule: 'src/styles/typography.js',
-			},
+			}
 		},
 		{
 			resolve: 'gatsby-plugin-favicon',
@@ -28,8 +30,8 @@ module.exports = {
 					twitter: false,
 					yandex: false,
 					windows: false,
-				},
-			},
-		},
-	],
+				}
+			}
+		}
+	]
 };

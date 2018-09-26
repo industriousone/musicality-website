@@ -13,7 +13,7 @@ const getQueryStringParams = query => {
                 return params;
             }, {}
             )
-        : {}
+        : {};
 };
 
 class NewsPage extends React.Component {
@@ -25,7 +25,7 @@ class NewsPage extends React.Component {
                 return <Article_Welcome />;
 
             case '20170927-High-Sierra-Update':
-                return <Article_20170927 />
+                return <Article_20170927 />;
 
             default:
                 return (<p>Not found</p>);

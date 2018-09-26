@@ -1,11 +1,12 @@
 {
     "env": {
         "browser": true,
-        "es6": true
+		"es6": true,
+		"node": true
     },
     "extends": [
-        "airbnb",
-        "prettier"
+		"eslint:recommended",
+		"plugin:react/recommended"
     ],
     "parserOptions": {
         "ecmaFeatures": {
@@ -14,20 +15,14 @@
         },
         "sourceType": "module"
     },
-    "plugins": [
-        "react",
-        "prettier"
-    ],
     "rules": {
         "import/no-extraneous-dependencies": "off",
         "jsx-a11y/anchor-is-valid": "off",
         "no-param-reassign": "off",
-        "prettier/prettier": "error",
         "react/jsx-filename-extension": "off",
-        "react/jsx-indent": [2, "tab"],
-        "react/jsx-indent-props": [2, "tab"]
-    },
-    "globals": {
-        "graphql": true
+        "react/jsx-indent": ["error", "tab"],
+		"react/jsx-indent-props": ["error", "tab"],
+		"react/jsx-one-expression-per-line": "off",
+		"semi": ["error", "always"]
     }
 }

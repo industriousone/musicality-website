@@ -8,7 +8,7 @@ Designed with ❤️☕️🔊 by Industrious One, 2017.
 Built with:
 
 - [Gatsby](https://www.gatsbyjs.org)
-- [react](https://facebook.github.io/react/)
+- [React](https://reactjs.org)
 - [Typography](https://kyleamathews.github.io/typography.js/)
 
 

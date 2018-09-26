@@ -4,20 +4,17 @@
 	"version": "1.0.0",
 	"private": true,
 	"dependencies": {
-		"eslint": "^4.19.1",
-		"eslint-config-airbnb": "^16.1.0",
-		"eslint-config-prettier": "^2.9.0",
-		"eslint-loader": "^2.0.0",
-		"eslint-plugin-import": "^2.11.0",
-		"eslint-plugin-jsx-a11y": "^6.0.3",
-		"eslint-plugin-prettier": "^2.6.0",
-		"eslint-plugin-react": "^7.7.0",
-		"gatsby": "^1.9.247",
-		"gatsby-link": "^1.6.40",
-		"gatsby-plugin-favicon": "^2.1.1",
-		"gatsby-plugin-react-helmet": "^2.0.10",
-		"gatsby-plugin-typography": "^1.7.18",
-		"react-helmet": "^5.2.0"
+		"gatsby": "^2.0.0",
+		"gatsby-plugin-favicon": "^3.1.4",
+		"gatsby-plugin-manifest": "^2.0.2",
+		"gatsby-plugin-offline": "^2.0.5",
+		"gatsby-plugin-react-helmet": "^3.0.0",
+		"gatsby-plugin-typography": "^2.2.0",
+		"react": "^16.5.1",
+		"react-dom": "^16.5.1",
+		"react-helmet": "^5.2.0",
+		"react-typography": "^0.16.13",
+		"typography": "^0.16.17"
 	},
 	"scripts": {
 		"build": "gatsby build",
@@ -26,7 +23,7 @@
 		"test": "echo \"Error: no test specified\" && exit 1"
 	},
 	"devDependencies": {
-		"gatsby-cli": "^1.1.50",
-		"prettier": "^1.12.0"
+		"eslint": "^5.6.0",
+		"gatsby-cli": "^1.1.50"
 	}
 }

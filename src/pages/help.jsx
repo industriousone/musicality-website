@@ -2,7 +2,7 @@ import { Link, graphql } from 'gatsby';
 import React from 'react';
 import PropTypes from 'prop-types';
 
-import Layout from '../components/Layout';
+import Layout from '../components/layout';
 import ContentPage from '../components/contentPage';
 import HelpRow from '../components/helpRow';
 

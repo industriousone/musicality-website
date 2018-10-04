@@ -9,12 +9,12 @@
    <title>Musicality 3</title>
    <sparkle:releaseNotesLink>https://www.getmusicality.com/download/changes.html</sparkle:releaseNotesLink>
    <pubDate>Thu, 20 Sep 2018 10:43:16 +0000</pubDate>
-   <enclosure url="https://az763153.vo.msecnd.net/musicality/Musicality-3.1.9-b183.zip"
-    sparkle:version="183"
-    sparkle:shortVersionString="3.1.9"
-    length="51989281"
+   <enclosure url="https://az763153.vo.msecnd.net/musicality/Musicality-3.1.10-b186.zip"
+    sparkle:version="186"
+    sparkle:shortVersionString="3.1.10"
+    length="51989711"
     type="application/octet-stream"
-    sparkle:dsaSignature="MCwCFA0zvrIjQlL+yIuEhFs1094O328yAhRzOUHfKhbJLv2WHhAMvi8Wc6GmNQ==" />
+    sparkle:dsaSignature="MCwCFHanh0WIRGeBqij2HP52WEkpc3B1AhQOKMHpG/1CP1Og3ipSdxduUIlmzg==" />
   </item>
  </channel>
 </rss>

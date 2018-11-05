@@ -255,6 +255,16 @@ const HelpPage = ({ data }) => (
 			</HelpRow>
 
 			<HelpRow
+				title="I can't get past the login captcha on Spotify!"
+				slug="spotify-captcha"
+			>
+				<p>
+					Login and do the captcha, and then hit “Login” and do it one more time
+					(don‘t reload the page, just login). It will let you in on the second try.
+				</p>
+			</HelpRow>
+
+			<HelpRow
 				title="I can't log in with Facebook (or Google or Twitter)!"
 				slug="oauth-logins"
 			>

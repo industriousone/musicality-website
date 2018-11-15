@@ -201,13 +201,11 @@ const HelpPage = ({ data }) => (
 			</HelpRow>
 
 			<HelpRow
-				title="The remote control layout is broken on iOS 12!"
+				title="The remote control layout is broken on iOS 12! (FIXED 🎉)"
 				slug="remote-ios12"
 			>
 				<p>
-					I&rsquo;m working on a fix for this now and hope to push a new release soon.
-					Everything should still work, even though the layout is broken&mdash;if you
-					see otherwise, please <a href="#how-to-contact">let me know</a>!
+					This is now fixed and available on the iOS App Store.
 				</p>
 			</HelpRow>
 

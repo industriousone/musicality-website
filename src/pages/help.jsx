@@ -190,6 +190,27 @@ const HelpPage = ({ data }) => (
 			</h2>
 
 			<HelpRow
+				title="Amazon Music says &ldquo;Playback Disabled&rdquo;!"
+				slug="amazon-playback-disabled"
+			>
+				<p>
+					Yup...not sure why it is throwing that up yet but will fix it if I can.
+				</p>
+			</HelpRow>
+
+			<HelpRow
+				title="Spotify doesn't play!"
+				slug="spotify-dead-dead-dead"
+			>
+				<p>
+					Spotify now requires a <a href="https://www.widevine.com">signed Widevine plugin</a> in
+					order to play their content. I reached out to Widevine about getting a playback license and
+					was told, in short, that I wasn&rsquo;t worth their time. Probably nowhere to go from there,
+					but if I can come up with anything I will do my best.
+				</p>
+			</HelpRow>
+
+			<HelpRow
 				title="Streaming to AppleTV fails with &ldquo;403 Forbidden&rdquo;!"
 				slug="atv4-403-forbidden"
 			>
@@ -221,17 +242,6 @@ const HelpPage = ({ data }) => (
 				</p>
 			</HelpRow>
 
-			<HelpRow
-				title="Spotify says &ldquo;Enable player in your browser!&rdquo; (FIXED 🎉)"
-				slug="enable-spotify-player"
-			>
-				<p>
-					This is now <em>fixed</em> in the <b>v3.1.6</b> release.{' '}
-					<a href="#how-to-contact">Let me know</a> if you continue to have any
-					problems!
-				</p>
-			</HelpRow>
-
 			<HelpRow title="Pandora Plus isn't working! (FIXED 🎉)" slug="pandora-plus">
 				<p>
 					This is now <em>fixed</em> in the <b>v3.1.6</b> release.{' '}
@@ -249,16 +259,6 @@ const HelpPage = ({ data }) => (
 					experiencing this issue, <a href="#how-to-contact">let me know</a>! And
 					in the meantime, choose <b>Go &gt; Reload</b> from the menu, or press{' '}
 					<b>Command+R</b>, to reload the page and get the music playing again.
-				</p>
-			</HelpRow>
-
-			<HelpRow
-				title="I can't get past the login captcha on Spotify!"
-				slug="spotify-captcha"
-			>
-				<p>
-					Login and do the captcha, and then hit “Login” and do it one more time
-					(don‘t reload the page, just login). It will let you in on the second try.
 				</p>
 			</HelpRow>
 

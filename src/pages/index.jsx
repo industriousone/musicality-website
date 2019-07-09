@@ -36,8 +36,8 @@ const IndexPage = () => (
 				</p>
 
 				<p>
-					The good news:{' '}
-					<em>I&apos;m really close to having everything working again.</em>
+					The good news is that I am continuing to release updates, and doing my
+					very best to keep things running until a proper new version is available.
 				</p>
 
 				<p>

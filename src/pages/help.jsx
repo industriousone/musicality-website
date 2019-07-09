@@ -7,7 +7,7 @@ import ContentPage from '../components/contentPage';
 import HelpRow from '../components/helpRow';
 
 export const query = graphql`
-	query {
+	query HelpPageQuery {
 		site {
 			siteMetadata {
 				title
@@ -36,6 +36,13 @@ const HelpPage = ({ data }) => (
 					<a name="general-questions">General Questions (and Answers!)</a>
 				</b>
 			</h2>
+
+			<HelpRow title="Does Musicality work with macOS Catalina?" slug="macos-catalina">
+				<p>
+					Yes! Everything seems to be working fine on all of the early beta releases.
+					Of course, do let me know if you run into any issues!
+				</p>
+			</HelpRow>
 
 			<HelpRow title="How can I contact you?" slug="how-to-contact">
 				<p>
@@ -69,7 +76,7 @@ const HelpPage = ({ data }) => (
 								<a href="http://8tracks.com">8tracks</a>
 							</td>
 							<td width="33%">
-								<a href="https://music.amazon.com">Amazon</a>
+								<del>Amazon</del>
 							</td>
 							<td width="33%">
 								<a href="http://deezer.com">Deezer</a>
@@ -121,7 +128,7 @@ const HelpPage = ({ data }) => (
 						</tr>
 						<tr>
 							<td>
-								<a href="http://play.spotify.com">Spotify</a>
+								<del>Spotify</del>
 							</td>
 							<td>
 								<a href="http://tunein.com">TuneIn Radio</a>

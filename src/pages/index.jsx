@@ -1,67 +1,45 @@
-import { Link } from 'gatsby';
 import React from 'react';
 
 import Layout from '../components/layout';
 import MainSection from '../components/mainSection';
 import MailingListSignup from '../components/mailingList';
-import Logo from '../components/logo';
+
+import releaseInfo from '../../data/release-info.json';
 
 const IndexPage = () => (
 	<Layout>
 		<div className="front-page">
 			<MainSection>
 				<div style={{ textAlign: 'center' }}>
-					<Logo size="256" />
-					<h3>
-						Musicality is <em>temporarily</em> unavailable.
-					</h3>
+					<h2><b>Musicality has been discontinued.</b></h2>
+					<h1><b>:-(</b></h1>
 				</div>
 
 				<p>
-					Musicality is a nights-and-weekends passion project for
-					me&mdash;I&apos;d love to do it full time, but that&apos;s not quite a
-					reality yet.
-					<span role="img" aria-label="face with wide open eyes">
-						😳
-					</span>
+					&nbsp;
 				</p>
 
 				<p>
-					I fell behind the recent flurry of changes to macOS, tvOS, and the music
-					services, and the{' '}
-					<Link to="/help">list of known issues</Link> got away from
-					me. I wasn&apos;t feeling good about the state of things, so I decided
-					to stop offering Musicality for sale until I could get things working to
-					my satisfaction again.
+					You probably already heard about how Musicality had become a nights and weekends project. Sadly my nights and weekends are now rarely my own and the world waits for no one. Musicality is no longer working properly on the newest macOS or tvOS, or on the latest Electron, or with the current Spotify and Amazon Music sites, and I have no time to get it fixed.
 				</p>
 
 				<p>
-					The good news is that I am continuing to release updates, and doing my
-					very best to keep things running until a proper new version is available.
+					Knowing that something I made is so broken and not being able to do anything about it is painful. I gave it my best shot with what time I had, but I came up short.
 				</p>
 
 				<p>
-					If you would like to try things out for yourself, there is a{' '}
-					<Link to="/download">free trial available</Link>...just be sure to check
-					the <Link to="/help">known issues</Link> first! If you
-					purchased Musicality already, and just need to download the latest
-					version, you can <Link to="/download">find it here</Link>.
+					If you need to download the last version of Musicality, you can find it <a href={releaseInfo.download}>here</a>. If you need to reach me, <a href="mailto:hello@industriousone.com">send me an email</a> or tweet at <a href="https://twitter.com/getmusicality">@getmusicality</a>.
 				</p>
 
 				<p>
-					If you would like to receive <em>very occasional</em> updates on
-					Musicality, drop your email address into the form below and I&apos;ll
-					notify you when everything is up and running properly again. (No spam,
-					and I&apos;ll never share your address. Promise.)
+					I&apos;ll still be listening to my music all day every day, so I'm not ruling out a new (probably much simpler) version of Musicality in the future. If you&apos;d like to stay in the loop, drop your email in the form below and I&apos;ll keep you notified (only Musicality news; no spam ever).
+				</p>
+
+				<p>
+					Rock on, my friends. I&apos;m glad you enjoyed Musicality all these years.
 				</p>
 
 				<MailingListSignup />
-
-				<p>
-					If you have questions, feel free to{' '}
-					<a href="mailto:hello@industriousone.com">send me an email</a>. See you
-					soon!
-				</p>
 			</MainSection>
 		</div>
 	</Layout>

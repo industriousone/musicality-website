@@ -4,8 +4,6 @@ import Layout from '../components/layout';
 import MainSection from '../components/mainSection';
 import MailingListSignup from '../components/mailingList';
 
-import releaseInfo from '../../data/release-info.json';
-
 const IndexPage = () => (
 	<Layout>
 		<div className="front-page">
@@ -28,11 +26,11 @@ const IndexPage = () => (
 				</p>
 
 				<p>
-					If you need to download the last version of Musicality, you can find it <a href={releaseInfo.download}>here</a>. If you need to reach me, <a href="mailto:hello@industriousone.com">send me an email</a> or tweet at <a href="https://twitter.com/getmusicality">@getmusicality</a>.
+					If you need to download the last version of Musicality, you can find it <a href="https://s3.us-east-2.amazonaws.com/share.industriousone.com/Musicality-3.1.14-b195.zip">here</a>. If you need to reach me, <a href="mailto:hello@industriousone.com">send me an email</a> or tweet at <a href="https://twitter.com/getmusicality">@getmusicality</a>.
 				</p>
 
 				<p>
-					I&apos;ll still be listening to my music all day every day, so I'm not ruling out a new (probably much simpler) version of Musicality in the future. If you&apos;d like to stay in the loop, drop your email in the form below and I&apos;ll keep you notified (only Musicality news; no spam ever).
+					I&apos;ll still be listening to my music all day every day, so I&apos;m not ruling out a new (probably much simpler) version of Musicality in the future. If you&apos;d like to stay in the loop, drop your email in the form below and I&apos;ll keep you notified (only Musicality news; no spam ever).
 				</p>
 
 				<p>
